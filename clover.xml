@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715118894">
-  <project timestamp="1715118894">
+<coverage generated="1715122313">
+  <project timestamp="1715122313">
     <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/BootstrapThemeSwitchBundle.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\BootstrapThemeSwitchBundle" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
