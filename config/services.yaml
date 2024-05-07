@@ -1,0 +1,22 @@
+services:
+    _defaults:
+        public: true
+        autowire: true
+        autoconfigure: true
+
+    NeuralGlitch\BootstrapThemeSwitch\:
+        resource: '%kernel.project_dir%/vendor/neuralglitch/bootstrap-theme-switch/src/'
+        exclude:
+            - '%kernel.project_dir%/vendor/neuralglitch/bootstrap-theme-switch/src/DependencyInjection/'
+            - '%kernel.project_dir%/vendor/neuralglitch/bootstrap-theme-switch/src/Entity/'
+
+    # NeuralGlitch\BootstrapThemeSwitch\Tests\Assets\:
+    #     resource: '../tests/Assets/'
+
+    bs_theme_switch.theme_service:
+        class: NeuralGlitch\BootstrapThemeSwitch\Service\ThemeService
+        arguments: [ '@request_stack' ]
+
+#    NeuralGlitch\BootstrapThemeSwitch\Controller\SwitchController:
+#        calls:
+#            - setContainer: ["@service_container"]

@@ -1,0 +1,4 @@
+neuralglitch_bs_theme_switch:
+    path: /_bootstrap-theme-switch
+    controller: NeuralGlitch\BootstrapThemeSwitch\Controller\SwitchController::__invoke
+    methods: [ 'POST' ]

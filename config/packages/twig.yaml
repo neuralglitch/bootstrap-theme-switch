@@ -1,0 +1,3 @@
+twig:
+    paths:
+        '%kernel.project_dir%/vendor/neuralglitch/bootstrap-theme-switch/templates': BootstrapThemeSwitch

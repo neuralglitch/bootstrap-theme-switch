@@ -1,0 +1,45 @@
+{
+    "name": "neuralglitch/bootstrap-theme-switch",
+    "type": "symfony-bundle",
+    "description": "Bootstrap Theme Switch Bundle",
+    "keywords": [
+        "symfony",
+        "bundle",
+        "bootstrap",
+        "theme"
+    ],
+    "homepage": "https://neuralglit.ch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neural Glitch",
+            "email": "mail@neuralglit.ch"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NeuralGlitch\\BootstrapThemeSwitch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NeuralGlitch\\BootstrapThemeSwitch\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/config": "^5.4|^6.0|^7.0",
+        "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+        "symfony/framework-bundle": "^5.4|^6.0|^7.0",
+        "symfony/yaml": "^5.4|^6.0|^7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "*",
+        "phpstan/phpdoc-parser": "*",
+        "phpstan/phpstan": "*",
+        "phpstan/phpstan-symfony": "*",
+        "phpunit/phpunit": "^9.5"
+    }
+}

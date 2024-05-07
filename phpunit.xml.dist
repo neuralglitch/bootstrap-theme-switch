@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" backupStaticAttributes="false" bootstrap="vendor/autoload.php" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage cacheDirectory=".phpunit.cache/code-coverage" processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+    <report>
+      <clover outputFile="clover.xml" />
+    </report>
+  </coverage>
+  <php>
+    <!-- disable E_USER_DEPRECATED -->
+    <ini name="error_reporting" value="16383"/>
+    <server name="APP_ENV" value="test" force="true"/>
+    <server name="KERNEL_DIR" value="./tests/Fixtures"/>
+    <server name="KERNEL_CLASS" value="\NeuralGlitch\BootstrapThemeSwitch\Tests\Kernel"/>
+  </php>
+  <testsuites>
+    <testsuite name="Bundle Test Suite">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
