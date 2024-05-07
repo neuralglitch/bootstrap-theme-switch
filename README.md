@@ -91,4 +91,4 @@ Execute the appropriate commands to build the frontend, if necessary.
 
 ---
 
-Copyright (c) 2024 [Neural Glitch](https://neuralglit.ch)
+Copyright (c) 2024 [neuralglit.ch](https://neuralglit.ch)
