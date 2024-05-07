@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715117613">
-  <project timestamp="1715117613">
-    <file name="/var/www/src/BootstrapThemeSwitchBundle.php">
+<coverage generated="1715118894">
+  <project timestamp="1715118894">
+    <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/BootstrapThemeSwitchBundle.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\BootstrapThemeSwitchBundle" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
@@ -9,7 +9,7 @@
       <line num="18" type="stmt" count="1"/>
       <metrics loc="21" ncloc="21" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <file name="/var/www/src/Controller/SwitchController.php">
+    <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/Controller/SwitchController.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\Controller\SwitchController" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="13" coveredelements="13"/>
       </class>
@@ -28,7 +28,7 @@
       <line num="33" type="stmt" count="2"/>
       <metrics loc="36" ncloc="36" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="13" coveredelements="13"/>
     </file>
-    <file name="/var/www/src/DependencyInjection/BootstrapThemeSwitchExtension.php">
+    <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/DependencyInjection/BootstrapThemeSwitchExtension.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\DependencyInjection\BootstrapThemeSwitchExtension" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="1" elements="9" coveredelements="2"/>
       </class>
@@ -43,7 +43,7 @@
       <line num="32" type="stmt" count="0"/>
       <metrics loc="35" ncloc="34" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="1" elements="9" coveredelements="2"/>
     </file>
-    <file name="/var/www/src/DependencyInjection/Configuration.php">
+    <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/DependencyInjection/Configuration.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\DependencyInjection\Configuration" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
       </class>
@@ -52,7 +52,7 @@
       <line num="28" type="stmt" count="0"/>
       <metrics loc="31" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
     </file>
-    <file name="/var/www/src/Service/ThemeService.php">
+    <file name="/home/runner/work/bootstrap-theme-switch/bootstrap-theme-switch/src/Service/ThemeService.php">
       <class name="NeuralGlitch\BootstrapThemeSwitch\Service\ThemeService" namespace="global">
         <metrics complexity="7" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="16" coveredelements="16"/>
       </class>
